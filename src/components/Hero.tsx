@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { IcGeneration, IcLogo } from "../assets";
 import { NAME } from "../constantas";
 import Container from "./Container";

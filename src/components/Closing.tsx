@@ -1,7 +1,6 @@
 import { IcGeneration, IcLogo } from "../assets";
 import { NAME } from "../constantas";
 import Container from "./Container";
-import Header from "./Header";
 
 const Closing = () => {
   return (
