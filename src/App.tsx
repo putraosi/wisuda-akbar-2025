@@ -8,12 +8,15 @@ import Location from "./components/Location";
 import Rundown from "./components/Rundown";
 import Seat from "./components/Seat";
 import Tutorial from "./components/Tutorial";
+import FloatingMusicPlayer from "./components/FloatingMusicPlayer";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <div className="relative scroll-smooth">
+      <FloatingMusicPlayer />
+
       <Hero isOpen={isOpen} setIsOpen={() => setIsOpen(true)} />
 
       {isOpen && (
@@ -27,13 +30,14 @@ const App = () => {
           <Closing />
 
           {/* Bottom Nav */}
-          <nav className="fixed bottom-0 w-full bg-gold100 border-t shadow-inner flex justify-around py-2 z-50 w-svw sm:max-w-[480px]">
+          <nav className="fixed bottom-0 bg-gold100 border-t shadow-inner flex justify-around py-2 z-50 w-svw sm:max-w-[480px]">
             {dataSubMenu.map((item, index) => (
               <SubMenuItem key={index} data={item} />
             ))}
           </nav>
         </>
       )}
+
     </div>
   );
 };
