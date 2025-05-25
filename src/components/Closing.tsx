@@ -1,12 +1,14 @@
-import { IcGeneration, IcLogo } from "../assets";
+import { FaWhatsapp } from "react-icons/fa";
+import { IcAlWildan, IcGeneration, IcLogo } from "../assets";
 import { NAME } from "../constantas";
+import { openWhatsApp } from "../helpers/linking";
 import Container from "./Container";
 
 const Closing = () => {
   return (
     <Container id="closing" className="items-center justify-center">
       <div className="flex flex-row gap-7">
-        <img src={IcLogo} alt="logo" className="w-[80px] h-auto" />
+        <img src={IcAlWildan} alt="logo" className="w-[80px] h-auto" />
         <img src={IcGeneration} alt="generation" className="w-auto h-[80px]" />
       </div>
 
@@ -17,6 +19,19 @@ const Closing = () => {
       </h1>
 
       <h4 className="font-bold uppercase text-xl ">{NAME}</h4>
+
+      <div className="absolute bottom-[80px] center flex-col">
+        <img src={IcLogo} alt="logo" className="w-20 h-auto rounded-full" />
+
+        <div
+          onClick={() => openWhatsApp("81388752905")}
+          className="cursor-pointer mt-4 row gap-2"
+        >
+          <FaWhatsapp size={24} />
+
+          <span className="text-sm">+62 813-8875-2905</span>
+        </div>
+      </div>
     </Container>
   );
 };

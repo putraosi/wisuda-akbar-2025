@@ -35,6 +35,13 @@ const Location = () => {
             Jakarta, Daerah Khusus Ibukota Jakarta 13820
           </p>
         </div>
+
+        <button
+          onClick={() => openURL(LOCATION)}
+          className=" rounded-full bg-gold100 text-black font-bold px-4 py-2 hover:text-white"
+        >
+          Lihat Lokasi Acara
+        </button>
       </div>
     </Container>
   );

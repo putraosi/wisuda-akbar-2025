@@ -1,4 +1,4 @@
-import { IcGeneration, IcLogo } from "../assets";
+import { IcAlWildan, IcGeneration } from "../assets";
 import { NAME } from "../constantas";
 import Container from "./Container";
 import Countdown from "./Countdown";
@@ -13,7 +13,7 @@ const Hero: React.FC<Props> = ({ isOpen, setIsOpen }) => {
     <Container id="hero" className="items-center justify-center">
       <div className="p-6 flex flex-col items-center justify-center ">
         <div className="flex flex-row gap-7">
-          <img src={IcLogo} alt="logo" className="w-[100px] h-auto" />
+          <img src={IcAlWildan} alt="logo" className="w-[100px] h-auto" />
           <img
             src={IcGeneration}
             alt="generation"

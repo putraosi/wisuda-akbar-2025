@@ -3,12 +3,14 @@ import { IcChair2, IcDirection, IcMarker, IcPlay, IcRundown } from "./assets";
 import Agenda from "./components/Agenda";
 import Closing from "./components/Closing";
 import Direction from "./components/Direction";
+import FloatingMusicPlayer from "./components/FloatingMusicPlayer";
 import Hero from "./components/Hero";
 import Location from "./components/Location";
+import Remark from "./components/Remark";
+import RSVP from "./components/RSVP";
 import Rundown from "./components/Rundown";
 import Seat from "./components/Seat";
 import Tutorial from "./components/Tutorial";
-import FloatingMusicPlayer from "./components/FloatingMusicPlayer";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -27,6 +29,8 @@ const App = () => {
           <Seat />
           <Rundown />
           <Tutorial />
+          <RSVP />
+          <Remark />
           <Closing />
 
           {/* Bottom Nav */}
@@ -37,7 +41,6 @@ const App = () => {
           </nav>
         </>
       )}
-
     </div>
   );
 };
@@ -60,7 +63,10 @@ const dataSubMenu: SubMenuProps[] = [
 
 const SubMenuItem: React.FC<{ data: SubMenuProps }> = ({ data }) => {
   return (
-    <a href={`#${data?.to}`} className="flex-col center gap-1.5 text-xs cursor-pointer hover:font-semibold">
+    <a
+      href={`#${data?.to}`}
+      className="flex-col center gap-1.5 text-xs cursor-pointer hover:font-semibold"
+    >
       <img src={data?.icon} alt={data?.to} className="w-4 h-auto" />
       {data?.name}
     </a>
