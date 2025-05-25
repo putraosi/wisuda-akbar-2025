@@ -20,16 +20,15 @@ const Closing = () => {
 
       <h4 className="font-bold uppercase text-xl ">{NAME}</h4>
 
-      <div className="absolute bottom-[80px] center flex-col">
+      <div className="absolute bottom-[70px] center flex-col">
         <img src={IcLogo} alt="logo" className="w-20 h-auto rounded-full" />
 
         <div
-          onClick={() => openWhatsApp("81388752905")}
-          className="cursor-pointer mt-4 row gap-2"
+          onClick={() => openWhatsApp("+6281388752905")}
+          className="cursor-pointer mt-4"
         >
           <FaWhatsapp size={24} />
 
-          <span className="text-sm">+62 813-8875-2905</span>
         </div>
       </div>
     </Container>
