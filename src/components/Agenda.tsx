@@ -9,14 +9,16 @@ const Agenda = () => {
       {/* IKHWAN */}
       <div className="w-3/5 ">
         <div className="text-center borderGold py-1 font-extrabold mt-6 mb-1 text-lg">
-          IKHWAN
+          HARI 1
         </div>
 
         <div className="row gap-1">
-          <div className="basis-1/3 borderGold text-center h-16 center font-bold text-sm">
+          <div className="basis-1/3 borderGold text-center h-16 center font-bold text-sm flex flex-col">
             SMP
             <br />
             SMA
+
+            <span className="italic text-[8px] text-white -mt-1 font-normal">(Ikhwan)</span>
           </div>
 
           <div className="basis-2/3 borderGold h-16 text-xs center flex-col">
@@ -29,13 +31,14 @@ const Agenda = () => {
       {/* AKHWAT */}
       <div className="w-3/5 ">
         <div className="text-center borderGold py-1 font-extrabold mt-4 mb-1 text-lg">
-          AKHWAT
+          HARI 2
         </div>
 
         <div className="row gap-1">
           <div className="basis-1/3 borderGold text-center h-16 center font-bold flex-col">
             <span className="text-sm text-gold100">Sesi 1</span>
             <span className="text-xs">SMP-SMA</span>
+            <span className="italic text-[8px] text-white font-normal">(Akhwat)</span>
           </div>
 
           <div className="basis-2/3 borderGold h-16 text-xs center flex-col">
@@ -48,7 +51,7 @@ const Agenda = () => {
           <div className="basis-1/3 borderGold text-center h-16 center font-bold flex-col">
             <span className="text-sm text-gold100">Sesi 2</span>
             <span className="text-xs">SD</span>
-            <span className="text-[8px]">(Ikhwan & Akhwat)</span>
+            <span className="italic text-[8px] text-white font-normal">(Ikhwan & Akhwat)</span>
           </div>
 
           <div className="basis-2/3 borderGold h-16 text-xs center flex-col">
