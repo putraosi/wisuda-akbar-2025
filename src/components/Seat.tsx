@@ -22,7 +22,7 @@ const dataSeat: ItemProps[] = [
   {
     id: 3,
     name: "HARI 2 Sesi 2",
-    description: "SD Ikhwan-Ikhwan",
+    description: "SD Ikhwan-Akhwat",
     link: "https://drive.google.com/file/d/1B9vV9fDFoD2lLBw5Z_FoXj0AOBZar7Gl/view",
     image: IcChair,
   },

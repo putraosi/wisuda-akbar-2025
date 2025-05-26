@@ -23,7 +23,7 @@ const dataVideo: ItemProps[] = [
   {
     id: 3,
     name: "HARI 2 Sesi 2",
-    description: "SD Ikhwan-Ikhwan",
+    description: "SD Ikhwan-Akhwat",
     link: "https://drive.google.com/file/d/1_Y6ojhNTnVdbtOX4En5FdI8q1faJeatG/view",
     image: IcVideo,
   },
