@@ -39,7 +39,7 @@ const Agenda = () => {
           <div className="row gap-1">
             <div className="basis-1/3 borderGold text-center h-16 center font-bold flex-col">
               <span className="text-sm text-gold100">Sesi 1</span>
-              <span className="text-xs leading-none">SMP-xsA</span>
+              <span className="text-xs leading-none">SMP-SMA</span>
               <span className="italic text-[8px] text-white font-normal">
                 (Akhwat)
               </span>
