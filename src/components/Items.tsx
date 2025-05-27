@@ -7,7 +7,7 @@ const Item: React.FC<{ data: ItemProps; onClick: () => void }> = ({
       <img src={data?.image} alt="seat" className="w-[80px] h-auto" />
 
       <div className="ml-4">
-        <h1 className="text-3xl font-extrabold uppercase">{data?.name}</h1>
+        <h1 className="text-2xl font-extrabold uppercase">{data?.name}</h1>
         <div className="flex">
           <div className="bg-gold100 rounded-md p-1 text-xs text-black italic text-center  mt-2 mb-6">
             {data?.description}

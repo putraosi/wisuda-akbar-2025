@@ -34,10 +34,10 @@ const Seat = () => {
       <Header />
 
       <div className="center flex-col p-10">
-        <h1 className="text-[34px] sm:text-[40px] font-extrabold leading-none text-center">
-          NOMOR URUT & NOMOR KURSI
+        <h1 className="text-[24px] font-extrabold leading-none text-center">
+          NOMOR URUT PROSESI & <br />NOMOR KURSI
         </h1>
-        <h3 className="text-[24px] sm:text-[30px] font-extrabold leading-none text-center">
+        <h3 className="text-[20px] font-extrabold leading-none text-center">
           WISUDAWAN
         </h3>
 

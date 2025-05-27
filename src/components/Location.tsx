@@ -31,7 +31,7 @@ const Location = () => {
           </h4>
 
           <p className="text-center text-sm sm:text-base">
-            Jl. Taman Mini Indonesia Indah Pintu 1 Tmii, Ceger, Kec. Cipayung,
+            Jl. Taman Mini Indonesia Indah Pintu 1 TMII, Ceger, Kec. Cipayung,
             Jakarta, Daerah Khusus Ibukota Jakarta 13820
           </p>
         </div>

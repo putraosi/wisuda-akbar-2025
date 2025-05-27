@@ -10,14 +10,14 @@ const dataVideo: ItemProps[] = [
     id: 1,
     name: "HARI 1",
     description: "SMP-SMA Ikhwan",
-    link: "https://drive.google.com/file/d/18e-tTVGXliEKMFOxBArmiPEbOAQ-bPaM/view",
+    link: "https://drive.google.com/file/d/1ON4rTOpNuindWkzGVw5ITBz8Nd4pZbCd/view",
     image: IcVideo,
   },
   {
     id: 2,
     name: "HARI 2 Sesi 1",
     description: "SMP-SMA Akhwat",
-    link: "https://drive.google.com/file/d/18e-tTVGXliEKMFOxBArmiPEbOAQ-bPaM/view",
+    link: "https://drive.google.com/file/d/1-nnsf6kKpaIMFhe3H1I0glYW89YBGzun/view",
     image: IcVideo,
   },
   {
