@@ -1,4 +1,4 @@
-import { IcAlWildan, IcGeneration } from "../assets";
+import { IcAlWildan, IcBis, IcGeneration } from "../assets";
 import { NAME } from "../constantas";
 import Container from "./Container";
 import Countdown from "./Countdown";
@@ -21,7 +21,9 @@ const Hero: React.FC<Props> = ({ isOpen, setIsOpen }) => {
           />
         </div>
 
-        <h3 className="uppercase font-bold text-[40px] mt-6 mb-2">Undangan</h3>
+        <img src={IcBis} alt="logo" className="w-auto h-14 mt-4" />
+
+        <h3 className="uppercase font-bold text-[40px] my-1">Undangan</h3>
 
         <h1 className="text-[46px] sm:text-[60px]  font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-300 to-yellow-600 drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)] text-center leading-none">
           WISUDA

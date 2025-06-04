@@ -1,5 +1,5 @@
 import { FaWhatsapp } from "react-icons/fa";
-import { IcAlWildan, IcGeneration, IcLogo } from "../assets";
+import { IcAlWildan, IcBar, IcGeneration, IcLogo } from "../assets";
 import { NAME } from "../constantas";
 import { openWhatsApp } from "../helpers/linking";
 import Container from "./Container";
@@ -7,6 +7,8 @@ import Container from "./Container";
 const Closing = () => {
   return (
     <Container id="closing" className="items-center justify-center">
+      <img src={IcBar} alt="logo" className="w-auto h-20 mb-4" />
+
       <div className="flex flex-row gap-7">
         <img src={IcAlWildan} alt="logo" className="w-[80px] h-auto" />
         <img src={IcGeneration} alt="generation" className="w-auto h-[80px]" />
@@ -28,7 +30,6 @@ const Closing = () => {
           className="cursor-pointer mt-4"
         >
           <FaWhatsapp size={24} />
-
         </div>
       </div>
     </Container>

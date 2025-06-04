@@ -40,7 +40,8 @@ const Rundown = () => {
         </h1>
 
         <div className="bg-gold100 rounded-md p-1 text-xs text-black italic text-center  mt-2 mb-6">
-          Ketuk icon kertas untuk akses tautan lengkap
+          Klik ikon kertas putih di bawah ini untuk melihat rundown lengkap
+          setiap sesi.
         </div>
 
         <div>
