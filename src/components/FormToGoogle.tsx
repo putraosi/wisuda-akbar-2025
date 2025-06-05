@@ -1,16 +1,25 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 const GOOGLE_FORM_ACTION =
   "https://docs.google.com/forms/d/e/1FAIpQLScGCA6CCxJFt2Aatkq06pkoVZ295QgN67icLEKGDca6DB0Tlw/formResponse";
 
 const GoogleFormIntegration = () => {
   const formRef = useRef<HTMLFormElement>(null);
+  const [isConfirm, setIsConfirm] = useState<boolean>(false);
 
   const handleSubmit = () => {
     setTimeout(() => {
+      setIsConfirm(true);
       formRef.current?.reset();
     }, 100); // delay agar kirim tetap jalan
   };
+
+  if (isConfirm)
+    return (
+      <span className="text-center mt-10 font-medium">
+        Terima kasih sudah mengisi konfirmasi kehadiran.
+      </span>
+    );
 
   return (
     <div className="w-full">
