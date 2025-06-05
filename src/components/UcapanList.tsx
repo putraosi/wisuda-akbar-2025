@@ -32,7 +32,16 @@ const UcapanList = () => {
       fetch(SHEET_CSV_URL)
         .then((res) => res.text())
         .then((text) => {
-          const json = csvToJson(text);
+          const json: KehadiranData[] = csvToJson(text);
+
+          try {
+            json.sort(
+              (a, b) =>
+                new Date(b.Timestamp).getTime() -
+                new Date(a.Timestamp).getTime()
+            );
+          } catch (error) {}
+
           setData(json);
         });
     };
