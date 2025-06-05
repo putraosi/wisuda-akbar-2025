@@ -16,7 +16,7 @@ const Location = () => {
           </h1>
 
           <div className="bg-gold100 rounded-md p-1 text-xs text-black italic text-center  mt-2 mb-6">
-            Ketuk gambar untuk akses tauntan lengkap
+            Ketuk gambar untuk akses tautan lengkap
           </div>
 
           <img
